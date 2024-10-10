@@ -8,20 +8,24 @@ def ball_pit_volume(ball_pit_radius, ball_pit_height):
     pi = 3.14
     return pi * (ball_pit_radius * ball_pit_radius) * ball_pit_height
 
+
 # Function to return the volume of a ball
 def ball_volume(ball_radius):
     pi = 3.14
     return (4 / 3) * pi * (ball_radius * ball_radius * ball_radius)
-
-ball_pit_height = float(input("enter the height of the ball pit in meters"))
-ball_pit_radius = float(input("enter the radius of the ball pit in meters"))
-ball_radius = float(input("enter the radius of 1 ball in meters"))
 
 
 # -------------------------
 # Main program
 # -------------------------
   # Meters
+ball_pit_radius =float(input(  ("Enter the radias of the ball pit in meters") ))
+ball_pit_height =float(input(  ("Enter the height of the ball pit in meters") ))
+ball_radius =float(input(  ("Enter the radias of the ball in meters") ))
+  
+ # Meters
+ # Meters
 packing_density = 0.75  # Volume taken up by the balls
-balls = (ball_pit_volume(ball_pit_radius, ball_pit_height) / ball_volume(ball_radius)) * packing_density
+balls = int((ball_pit_volume(ball_pit_radius, ball_pit_height) / ball_volume(ball_radius)) * packing_density)
+
 print("You need", balls, "balls to fill the ball pit.")
