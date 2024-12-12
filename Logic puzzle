@@ -1,0 +1,33 @@
+# Fox, chicken, grain program
+
+
+print("A fox, chicken and a bag of grain wait by the side of a river")
+def fox (): 
+  int(0)
+  return 
+def output ():
+print("this side of river: ")
+def chicken ():
+   int(0)
+def grain ():
+    int(0)
+    def farmer ():
+       int(0)
+       
+       
+       
+       
+choice = input("what is your choice; fox, chicken, farmer or grain :  ")
+if choice == ("fox") :
+  print("fox is now on the other side") 
+  fox =  + 1
+elif choice == ("chicken"):
+  print ("chicken is now on the other side")
+  chicken = + 1 
+elif choice == ("grain"):
+ print("grain is on the other side")
+ grain = + 1
+elif choice == ("farmer"):
+  print("farmer is now on the other side")
+else:
+ print ("give a valid response")
