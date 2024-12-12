@@ -2,11 +2,20 @@
 
 
 print("A fox, chicken and a bag of grain wait by the side of a river")
-def fox (): 
-  int(0)
-  return 
 def output ():
-print("this side of river: ")
+ if chicken == 1:
+   print ("chicken is across river")
+ if fox == 1:
+    print("fox is across river")
+ if grain == 1:
+    print ("grain is across river")
+  
+ 
+  
+def fox (): 
+   int(0)
+   
+
 def chicken ():
    int(0)
 def grain ():
@@ -31,3 +40,5 @@ elif choice == ("farmer"):
   print("farmer is now on the other side")
 else:
  print ("give a valid response")
+
+output()
