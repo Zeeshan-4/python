@@ -1,0 +1,24 @@
+#level 1 mission encodable
+
+# -------------------------
+# Subprograms
+# -------------------------
+
+
+def generate_lyrics():
+ thing = input("smth")
+animal = input("enter an animal")
+noun = input("enter a noun")
+place = input("enter a place")
+verb = input("enter a verb ending in `ing`")
+
+# -------------------------
+# Main program
+# -------------------------
+carol = ("Jingle bells, jingle bells, jingle all the way!",
+"Dashing through the" , noun, 
+"On a one ",  animal ,  "-open-sleigh",
+"O'er the " , place ,  " we go ",
+ verb ,  "all the way.")
+
+print (carol)
