@@ -1,0 +1,30 @@
+
+# Function to convert a denary number to hexadecimal using repeated division by 16
+def den_to_hex(number):
+  number = input("enter a number")
+  hex = ""
+  while number > 0:
+  # Return remainder using modulus 16
+   remainder = number % 16
+   digit = remainder
+ # Resolve letters A-F
+  match remainder:
+   case 10:
+    digit = "A"
+   case 11:
+    digit = "B"
+   case 12:
+    digit = "C"
+   case 13:
+    digit = "D"
+   case 14:
+    digit = "E"
+   case 15:
+    digit = "F"
+ # Concatenate hex sequence
+  hex = str(digit) + hex
+ # Integer divide the number by 16
+  number = number // 16
+  return hex
+
+print (d
